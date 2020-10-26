@@ -1,0 +1,21 @@
+ http:
+   port: "8080"
+   
+ american:
+   host: "training4-american-api-singh1.us-e2.cloudhub.io"
+   port: "80"
+   basepath: "/"
+   protocol: "HTTP"
+   client_id: "19b75432741444308d99971a8ebe4914"
+   client_secret: "507BEB8537dF459E8Cc71B6EEA5026FF"
+   
+ training:
+   host: "mu.learn.mulesoft.com"
+   port: "80"
+   basepath: "/"
+   protocol: "HTTP"
+   
+ delta:
+  wsdl: "http://mu.learn.mulesoft.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "TicketServicePort"
